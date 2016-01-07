@@ -65,8 +65,8 @@ class MailHelperTest extends MailTestCase
         return array(
             array(
                 array(
-                    array('name'=>'vulnerabilità 1','version'=>'1.0','advisories'=>'testo vulnerabilità 1'),
-                    array('name'=>'vulnerabilità 2','version'=>'2.0','advisories'=>'testo vulnerabilità 2')
+                    array('name'=>'vulnerabilità 1','version'=>'1.0','advisories'=>'testo vulnerabilità 1','isOk'=>'false'),
+                    array('name'=>'vulnerabilità 2','version'=>'2.0','advisories'=>'testo vulnerabilità 2','isOk'=>'true')
                 )
             )
         );
